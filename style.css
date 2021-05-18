@@ -1,0 +1,42 @@
+body{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#FF7F50;
+}
+
+#container{
+  width:400px;
+  display:flex;
+  margin-top: 450px;
+  justify-content: center;
+  align-items: center;
+  background:#DCDCDC; 
+  height:200px;
+  box-shadow: 5px 5px 5px #000000;
+}
+
+button{
+  box-shadow:5px 5px 5px #000000;
+  border-radius: 50%;
+  padding:20px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+#red_button{
+  background-color:#8B0000; 
+}
+
+#blue_button{
+  background-color:#191970;
+}
+
+#green_button{
+  background-color:#228B22;
+}
+
+
